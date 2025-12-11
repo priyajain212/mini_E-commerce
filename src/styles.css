@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f11f1f;
+}
+.navbar {
+    background-color: #333;
+    /* overflow: hidden; */
+    display: flex;
+    gap: 20px;
+    padding: 14px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-weight: bold;
+}
+.container {
+    padding: 20px;
+}
+.filter{
+    margin-bottom: 20px;
+padding: 10px;}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 16px;
+    text-align: center;
+}
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.card button:hover {
+    background-color: #218838;
+}
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.cart-list {
+    /* margin-bottom: 20px;
+     */
+     display:flex;
+     flex-direction: column;
+     gap: 15px;
+}
+.cart-item img {
+    width: 80px;
+    object-fit:  contain;
+    margin-right: 20px;
+}
+.cart-item button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+}
